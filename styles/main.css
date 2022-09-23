@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+/* font-family: 'Libre Franklin', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  padding: 60px 50px 70px 50px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: hsl(0, 0%, 59%);
+}
+
+#add {
+  font-weight: 700;
+  color: black;
+}
+
+p {
+  text-align: center;
+  color: hsl(0, 0%, 59%);
+}
+
+.register {
+  margin-top: 2%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 3%;
+  border: 0.5px solid hsl(0, 0%, 59%);
+  font-size: 15px;
+}
+
+input:hover {
+  border: 1px solid hsl(223, 87%, 63%);
+}
+
+::placeholder {
+  padding-left: 10px;
+  color: hsl(0, 0%, 59%);
+  font-size: 12px;
+}
+
+.btn {
+  margin: 2%;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+input,
+.btn {
+  padding: 2%;
+  border-radius: 25px;
+  padding-left: 10px;
+}
+
+main img {
+  width: 100%;
+  margin-bottom: 8%;
+}
+
+footer {
+  justify-content: space-between;
+}
+
+.fa-brands {
+  color: hsl(223, 87%, 63%);
+  padding: 2%;
+  /* border: 1px solid hsl(223, 100%, 88%); */
+}
+
+footer p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    width: 944px;
+    margin: 0 auto;
+  }
+  .register {
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+  }
+  input {
+    align-items: center;
+    width: 85%;
+  }
+  ::placeholder {
+    font-size: 15px;
+  }
+  .btn {
+    margin: 2.8%;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    font-size: 15px;
+    width: 15%;
+    display: inline-flex;
+    /* display: inline-block; */
+    align-items: center;
+    padding: 6em;
+    padding-right: 2px;
+    /* font-weight: bold;
+    text-align: center; */
+    /* vertical-align: middle; */
+  }
+  input,
+  .btn {
+    padding: 22px 0;
+    height: 20px;
+    padding-left: 20px;
+  }
+  /* .fa-solid {
+    padding-left: 6px;
+    font-size: 20px;
+  } */
+}
